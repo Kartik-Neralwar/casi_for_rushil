@@ -1,0 +1,10 @@
+{
+    "model_hypers": {"filters": 32,
+                     "activation": "selu",
+                     "last_activation": "selu"},
+    "train_hypers": {"epochs": 250,
+                     "batch_size": 10},
+    "data_hypers": {"data_path": "/u/kneralwar/ptmp_link/starforge_cubes/M2e4_fits_wind_mask_train_ME_32x128x128_2023_07_24/",
+                    "neg_data_path": "/u/kneralwar/ptmp_link/starforge_cubes/M2e4_fits_wind_mask_neg_train_ME_32x128x128_2023_07_24/",
+                    "raw_path": "/u/kneralwar/ptmp_link/starforge_cubes/M2e4_fits_raw_cube_train_32x128x128_2023_07_24/"}
+}
